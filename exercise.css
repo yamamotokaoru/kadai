@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+
+}
+body{
+  width: 100%;
+}
+#hoge {
+  width: 100%;
+}
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+.boxies{
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.box{
+  margin-right: 30px;
+  float: left;
+  border: solid;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  background-color: #eeeeee;
+
+}
+.box h5{
+  color: white;
+}
+h3,p{
+  margin-left: 5px;
+  color: #6c6b6b;
+  margin-top: 5px;
+}
+.komidasi{
+
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+ background-color: #ff9a4b;
+}
+.image1{
+  background-image: url("img/flow01.png");
+  height: 150px;
+  background-size: cover;
+  margin: 10px;
+}
+.image2{
+  background-image: url("img/flow02.png");
+  height: 150px;
+  background-size: cover;
+  margin: 10px;
+}
+.image3{
+  background-image: url("img/flow03.png");
+  height: 150px;
+  background-size: cover;
+  margin: 10px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+
+}
+@media screen and (max-width:768px) {
+.boxies {
+  display: block;
+  width: 100%;
+   
+ }
+.box{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  float:none;
+}
+}
